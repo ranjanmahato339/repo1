@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>survey form</h1>
+This is a survey form for  MESCOLLEGE<br>
+<form action="dataoutput.jsp">
+*NAME<input type="text" placeholder="enter your name"name="name" required></input><br>
+*EMAIL<input type="email" placeholder="test@gmail.com"name="email" required></input><br>
+*ROLLNO<input type="number" name="number" min="0" max="100" required></input><br>
+How do you rate our college?<select name="rating">
+<option value="excelent">excelent</option>
+<option value="good">good</option>
+<option value="fair">fair</option>
+<option value="poor">poor</option>
+</select> 
+<fieldset>
+<legend>which is your favorite course? </legend>
+<input type="radio"name="course" value="BCA">BCA</input><br>
+<input type="radio"name="course" value="BA">BA</input><br>
+<input type="radio"name="course" value="B.com">B.com</input><br>
+</input>
+</fieldset>
+<fieldset>
+<legend>What do you like about MEScollege</legend>
+<input type="checkbox"name="likness"value="classes">classes</input>
+<input type="checkbox"name="likness"value="teachers">teachers</input>
+<input type="checkbox"name="likness"value="culture">culture</input>
+</fieldset>
+<input type="submit">
+</form>
+</body>
+</html>
